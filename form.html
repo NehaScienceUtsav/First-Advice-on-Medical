@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Advice on Medical<</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<header>
+    <h1>First Advice on Medical</h1>
+    <p>Your source for health support</p>
+</header>
+    <div class="main">
+  <nav class="side-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resources.html" target="_blank">Resources</a></li>
+      <li><a href="articles.html" target="_blank">Articles</a></li>
+      <li><a href="contact.html" target="_blank">Contact</a></li>      
+        <li><a href="volunteer_form.html" target="_blank">Volunteer section</a></li>
+        <li><a href="form.html" target="_blank">Consultant section</a></li>
+    </ul>
+  </nav>
+    <h2>Mental Health Assessment</h2>
+    
+    <form id="assessmentForm">
+        <!-- Repeat the following block for each question -->
+        <div class="question">
+            <p>Question 1: Feeling nervous, anxious, or on edge</p>
+            <label><input type="radio" name="q1" value="always">Always</label>
+            <label><input type="radio" name="q1" value="somedays">Somedays</label>
+            <label><input type="radio" name="q1" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 2: Not being able to stop or control worrying</p>
+            <label><input type="radio" name="q2" value="always">Always</label>
+            <label><input type="radio" name="q2" value="somedays">Somedays</label>
+            <label><input type="radio" name="q2" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 3: Worrying too much about different things</p>
+            <label><input type="radio" name="q3" value="always">Always</label>
+            <label><input type="radio" name="q3" value="somedays">Somedays</label>
+            <label><input type="radio" name="q3" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 4: Trouble relaxing</p>
+            <label><input type="radio" name="q4" value="always">Always</label>
+            <label><input type="radio" name="q4" value="somedays">Somedays</label>
+            <label><input type="radio" name="q4" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 5: Being so restless that it is hard to sit still</p>
+            <label><input type="radio" name="q5" value="always">Always</label>
+            <label><input type="radio" name="q5" value="somedays">Somedays</label>
+            <label><input type="radio" name="q5" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 6: Becoming easily annoyed or irritable</p>
+            <label><input type="radio" name="q6" value="always">Always</label>
+            <label><input type="radio" name="q6" value="somedays">Somedays</label>
+            <label><input type="radio" name="q6" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 7: Feeling afraid, as if something awful might happen</p>
+            <label><input type="radio" name="q7" value="always">Always</label>
+            <label><input type="radio" name="q7" value="somedays">Somedays</label>
+            <label><input type="radio" name="q7" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 8: Little interest or pleasure in doing things</p>
+            <label><input type="radio" name="q8" value="always">Always</label>
+            <label><input type="radio" name="q8" value="somedays">Somedays</label>
+            <label><input type="radio" name="q8" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 9: Feeling tired or having little energy</p>
+            <label><input type="radio" name="q9" value="always">Always</label>
+            <label><input type="radio" name="q9" value="somedays">Somedays</label>
+            <label><input type="radio" name="q9" value="never">Never</label>
+        </div>
+        <div class="question">
+            <p>Question 10: Feeling bad about yourself - or that you are a failure or have let yourself or your family down</p>
+            <label><input type="radio" name="q10" value="always">Always</label>
+            <label><input type="radio" name="q10" value="somedays">Somedays</label>
+            <label><input type="radio" name="q10" value="never">Never</label>
+        </div>
+        
+
+        <button type="button" onclick="calculateResults()" class="center-button">Submit</button>
+        <div id="results"></div>
+    </form>
+    
+    
+    <script src="form-1.js"></script>
+ <footer>
+    <p>&copy; 2023 Connective AID. All rights reserved.</p>
+  </footer>
+</body>
+</html>
